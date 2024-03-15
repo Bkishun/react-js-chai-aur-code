@@ -27,7 +27,7 @@ function App() {
       <br />
       <button onClick={reduceValue}>Decrease value</button>
       <br />
-      <button onClick={addTwo}>Add two value</button>
+      <button onClick={addTwo}>Add two</button>
     </>
   )
 }
