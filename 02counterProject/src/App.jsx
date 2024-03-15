@@ -7,6 +7,11 @@ function App() {
     setCounter(counter +1);
   }
 
+  const addTwo = () =>{
+    setCounter(prevCounter => prevCounter+1)
+    setCounter(prevCounter => prevCounter+1)
+  }
+
   const reduceValue = () => {
     if(counter -1 >= 0){
       setCounter(counter - 1)
@@ -21,6 +26,8 @@ function App() {
       <button onClick={addValue}>Add value</button>
       <br />
       <button onClick={reduceValue}>Decrease value</button>
+      <br />
+      <button onClick={addTwo}>Add two value</button>
     </>
   )
 }
